@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SDCARD">
+<wire x1="6.9" y1="0" x2="6.9" y2="15.2" width="0.127" layer="21"/>
+<wire x1="6.9" y1="15.2" x2="-6.9" y2="15.2" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="15.2" x2="-6.9" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="0" x2="6.9" y2="0" width="0.127" layer="21"/>
+<smd name="P$1" x="-4.775" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$2" x="-3.775" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$3" x="-2.775" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.8" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$5" x="-0.8" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$6" x="0.2" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$7" x="1.225" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$8" x="2.225" y="3.8" dx="1.05" dy="0.7" layer="1" rot="R90"/>
+<smd name="P$9" x="6.575" y="0.35" dx="0.9" dy="0.95" layer="1"/>
+<smd name="P$11" x="0.725" y="2.25" dx="0.65" dy="0.65" layer="1"/>
+<smd name="P$12" x="-3.275" y="2.25" dx="0.65" dy="0.65" layer="1"/>
+<smd name="P$13" x="-6.5875" y="0.425" dx="1.15" dy="0.745" layer="1" rot="R90"/>
+<smd name="P$10" x="-4.765" y="14.975" dx="1.2" dy="0.85" layer="1"/>
+<smd name="P$14" x="-3.3575" y="15.065" dx="0.65" dy="0.85" layer="1" rot="R90"/>
+<smd name="P$15" x="6.045" y="14.975" dx="1.3" dy="0.85" layer="1"/>
+<smd name="P$16" x="2.865" y="14.975" dx="0.65" dy="0.85" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SDCARD">
+<pin name="1-CD/DATA3" x="-15.25" y="6.925" length="middle"/>
+<pin name="2-CMD" x="-15.125" y="4.375" length="middle"/>
+<pin name="3-VSS1" x="-15.125" y="1.525" length="middle"/>
+<pin name="4-VDD" x="-14.975" y="-1.175" length="middle"/>
+<pin name="5-CLK" x="-15.075" y="-3.85" length="middle"/>
+<pin name="6-VSS2" x="-15.075" y="-6.875" length="middle"/>
+<pin name="7-DATA0" x="-15.075" y="-9.8" length="middle"/>
+<pin name="8-DATA1" x="-15.3" y="-13.05" length="middle"/>
+<pin name="9-DATA2" x="-15.2" y="-16.25" length="middle"/>
+<pin name="10-CD" x="-15.375" y="-19.125" length="middle"/>
+<pin name="11-WP" x="-15.375" y="-22.075" length="middle"/>
+<wire x1="-10.05" y1="9.675" x2="-10.05" y2="-26.225" width="0.254" layer="94"/>
+<wire x1="-10.05" y1="-26.225" x2="8.005" y2="-26.225" width="0.254" layer="94"/>
+<wire x1="8.005" y1="-26.225" x2="8.005" y2="-15.425" width="0.254" layer="94"/>
+<wire x1="-9.85" y1="9.875" x2="10.805" y2="9.875" width="0.254" layer="94"/>
+<wire x1="10.805" y1="9.875" x2="10.805" y2="-12.3" width="0.254" layer="94"/>
+<wire x1="10.825" y1="-12.325" x2="7.975" y2="-15.375" width="0.254" layer="94"/>
+<wire x1="2.575" y1="-21.3" x2="5.175" y2="-21.325" width="0.254" layer="94"/>
+<wire x1="5.175" y1="-21.325" x2="3.875" y2="-22.95" width="0.254" layer="94"/>
+<wire x1="3.875" y1="-22.95" x2="2.6" y2="-21.4" width="0.254" layer="94"/>
+<text x="7.225" y="-7.3" size="1.27" layer="94" rot="R90">SDCARD</text>
+<text x="14" y="2.6" size="1.27" layer="95">&gt;NAME</text>
+<text x="13.625" y="-3.75" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICRO_SDCARD">
+<gates>
+<gate name="G$1" symbol="SDCARD" x="-5.08" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SDCARD">
+<connects>
+<connect gate="G$1" pin="1-CD/DATA3" pad="P$1"/>
+<connect gate="G$1" pin="10-CD" pad="P$10"/>
+<connect gate="G$1" pin="11-WP" pad="P$11 P$12 P$13 P$14 P$15 P$16"/>
+<connect gate="G$1" pin="2-CMD" pad="P$2"/>
+<connect gate="G$1" pin="3-VSS1" pad="P$3"/>
+<connect gate="G$1" pin="4-VDD" pad="P$4"/>
+<connect gate="G$1" pin="5-CLK" pad="P$5"/>
+<connect gate="G$1" pin="6-VSS2" pad="P$6"/>
+<connect gate="G$1" pin="7-DATA0" pad="P$7"/>
+<connect gate="G$1" pin="8-DATA1" pad="P$8"/>
+<connect gate="G$1" pin="9-DATA2" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
